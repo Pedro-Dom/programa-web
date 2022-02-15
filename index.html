@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aula 15/02</title>
+    <style>
+
+        .container {
+            width: 80%;
+            margin: auto;
+            margin-top: 100px;
+            /* background-color: #e9e9e9; */
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+            background-color: orangered;
+        }
+        /* main { 
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        } */
+
+        body {
+            background-color: darkslateblue;
+        }
+
+        header, footer {
+            color: floralwhite;
+            font-size: 32px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: mediumvioletred;
+            align-items: baseline;
+            margin-top: 100px;
+        }
+
+        section {
+            /* background-color: palegreen; */
+            color: floralwhite;
+            /* text-align: justify; */
+            font-size: 20px;
+            padding: 2px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <!-- git config --global --unset user.name/user.email -->
+    <header>
+        Cabeçalho
+    </header>
+
+    <main>
+        <section class="container">
+            Minha classe de estilo
+        </section>
+
+        <section class="container">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, natus consequatur voluptas culpa nam sed fugit architecto expedita maiores, blanditiis dolorum, nihil repellat deserunt? Eum corrupti quis ex ad dolor?
+        </section>
+
+        <section class="flex-container">
+            Linha 1
+        </section>
+
+        <section class="flex-container">
+            Linha 2
+        </section>
+
+        <section class="flex-container">
+            Linha 3
+        </section>
+    </main>
+
+    <footer>
+        Rodapé
+    </footer>
+
+    
 </body>
 </html>
